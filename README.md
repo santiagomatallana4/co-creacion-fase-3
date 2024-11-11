@@ -2,6 +2,20 @@
 
 En esta fase, se hizo uso de **Pandas** y **Plotly** para organizar y visualizar la información obtenida de los archivos CSV del **SIB**, correspondientes a los departamentos de **Cundinamarca** y **Boyacá**.
 
+## Clonado y correcta ejecución del proyecto
+Una vez clonado el proyecto se deben ejecutar los siguientes pasos:
+- **Tener instalado Python**: Asegurarse de que Python este instalado en el equipo.
+- **Ejecucion de comandos**: Se debe abrir un CMD en la carpeta raíz del proyecto, en el que se ejecutaran los siguientes comandos:
+  - pip install virtualenv
+  - python -m venv virtual
+  - virtual\Scripts\activate
+  - Pyhton (para asegurarse que el python esta corriendo correctamente)
+  - Ctrl+Z+Enter
+  - pip install flask
+  - pip install pandas
+  - pip install plotly
+- Y finalmente ejecutar el siguiente comando: Python app.py
+
 ### Avances
 
 - **Sección Datos**: Se creó una nueva sección en el proyecto llamada **Datos** para la visualización de la información obtenida.
