@@ -11,3 +11,14 @@ En esta fase, se hizo uso de **Pandas** y **Plotly** para organizar y visualizar
   - **Gráfica circular**: Para representar visualmente las proporciones de los datos entre los diferentes reinos.
 
 - **Archivo CSV común**: Se creó un archivo CSV unificado para ambos departamentos, que sirvió como fuente de datos para generar las gráficas.
+
+### Registro Fotográfico
+
+![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/1.png)
+![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/2.png)
+![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/3.png)
+![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/4.png)
+![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/5.png)
+![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/6.png)
+![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/7.png)
+**Implementación Pandas y Plotly para extracción, organización y visualización de los datos obtenidos**
