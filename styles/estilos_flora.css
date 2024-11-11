@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6;
+}
+
+.descripcion-flora{
+    text-align: center;
+    padding: 40px 5%;
+    background-color: #eaf4f4;
+}
+
+.descripcion-flora h1{
+    font-size: 2.5rem;
+    color: #2c5e27;
+}
+
+.descripcion-flora p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarjetas-flora{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 5%;
+}
+
+.tarjeta{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover{
+    transform: scale(1.05);
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tarjeta .info{
+    padding: 20px;
+}
+
+.tarjeta h2{
+    font-size: 1.5rem;
+    color: #2c5e27;
+}
+
+.nombre-cientifico{
+    font-size: 1.2rem;
+    color: #6ba76b;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.tarjeta p{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.btn-mas-info{
+    background-color: #2c5e27;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-mas-info:hover{
+    background-color: #488f44;
+}
+
+.info-extra{
+    display: none;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.info-extra p{
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Responsividad para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    
+    /* Sección de descripción de flora */
+    .descripcion-flora {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .descripcion-flora h1 {
+        font-size: 2rem;
+    }
+
+    .descripcion-flora p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    /* Tarjetas de flora */
+    .tarjetas-flora {
+        flex-direction: column; /* Apila las tarjetas verticalmente */
+        align-items: center;
+        padding: 20px;
+    }
+
+    .tarjeta {
+        width: 100%; /* Las tarjetas ocupan el 100% del ancho */
+        max-width: 400px; /* Asegura que no se estiren demasiado */
+    }
+
+    .tarjeta img {
+        height: auto;
+    }
+
+    .tarjeta h2 {
+        font-size: 1.4rem;
+    }
+
+    .nombre-cientifico {
+        font-size: 1rem;
+    }
+
+    .tarjeta p {
+        font-size: 0.9rem;
+    }
+
+    .btn-mas-info {
+        padding: 8px 12px;
+    }
+
+    .info-extra {
+        font-size: 0.85rem;
+    }
+}
+
+/* Responsividad para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Sección de descripción de flora */
+    .descripcion-flora h1 {
+        font-size: 2.3rem;
+    }
+
+    .descripcion-flora p {
+        font-size: 1.1rem;
+        max-width: 90%;
+    }
+
+    /* Tarjetas de flora */
+    .tarjeta {
+        width: 45%; /* Las tarjetas ocupan casi la mitad del ancho */
+    }
+
+    .tarjeta h2 {
+        font-size: 1.5rem;
+    }
+
+    .nombre-cientifico {
+        font-size: 1.1rem;
+    }
+
+    .tarjeta p {
+        font-size: 1rem;
+    }
+
+    .btn-mas-info {
+        padding: 10px 15px;
+    }
+
+    .info-extra {
+        font-size: 0.9rem;
+    }
+}

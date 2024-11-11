@@ -1,0 +1,45 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Título principal de la página */
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Títulos secundarios */
+h2 {
+    color: #4CAF50;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Contenedor de los gráficos */
+div.graficos {
+    margin: 20px;
+}
+
+/* Contenedores de gráficos individuales */
+div.plotly-graph-div {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Estilo para asegurar que los gráficos son responsivos */
+@media (max-width: 768px) {
+    div.plotly-graph-div {
+        width: 100%;
+    }
+}
+
+/* Agregar algo de espacio debajo de los gráficos */
+h2 + div.graficos {
+    margin-bottom: 50px;
+}

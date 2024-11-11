@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(1, 131, 1, 0.95);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 99%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+    gap: 15px
+}
+
+.icon-btn{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.icon-btn:hover{
+    color: #f39c12;
+}
+
+.banner{
+    background-image: url('../assets/img/ErnestoPerez.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.banner h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+    margin: 0;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover{
+    color: #0056b3;
+}
+
+section.flora, section.fauna, section.ecosistemas, section.especies-invasoras{
+    padding: 40px 20px;
+}
+
+section.flora .content, section.fauna .content, section.ecosistemas .content, section.especies-invasoras .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+section.flora img, section.fauna img, section.ecosistemas img, section.especies-invasoras img{
+    width: 45%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+section.flora .text, section.fauna .text, section.ecosistemas .text, section.especies-invasoras .text{
+    width: 50%;
+}
+
+section.flora h2, section.fauna h2, section.ecosistemas h2, section.especies-invasoras h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section.flora p, section.fauna p, section.ecosistemas p, section.especies-invasoras p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+section.flora .learn-more, section.fauna .learn-more, section.ecosistemas .learn-more, section.especies-invasoras .learn-more{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid lime;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.learn-more:hover{
+    background-color: lime;
+    color: white;
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px aqua;
+}
+
+section.flora .content, section.fauna .content, section.ecosistemas .content, section.especies-invasoras .content {
+    flex-direction: row;
+}
+
+footer{
+    background: radial-gradient(circle, #5acfcf, #015d5f);
+    color: #fff;
+    padding: 40px 20px;
+    font-size: 0.875rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
+}
+
+.footer-section h3{
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul{
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a{
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover{
+    color: #aaa;
+}
+
+.footer-section ul li i {
+    margin-right: 8px;
+    font-size: 1.25rem;
+}
+
+.suscription form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.suscription input[type="email"]{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.suscription button{
+    padding: 8px;
+    border: none;
+    background-color: #56baed;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.suscription button:hover{
+    background-color: #39ace7;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 0.75rem;
+    width: 100%;
+}
+
+.footer-bottom p{
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* Responsividad para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+
+    /* Header y navegación */
+    header {
+        padding: 10px;
+        justify-content: center; /* Centrar los elementos del header */
+    }
+    
+    .navbar {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        gap: 10px;
+    }
+
+    .navbar-left, .navbar-right {
+        justify-content: center;
+    }
+
+    /* Ajustes en la imagen del banner */
+    .banner {
+        height: 40vh;
+        padding-left: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem; /* Disminuye el tamaño del título */
+    }
+
+    /* Secciones de contenido (flora, fauna, ecosistemas) */
+    section.flora .content, 
+    section.fauna .content, 
+    section.ecosistemas .content,
+    section.especies-invasoras .content {
+        flex-direction: column; /* Cambia la dirección de las columnas a fila */
+        text-align: center; /* Centra el texto */
+    }
+
+    section.flora img, 
+    section.fauna img, 
+    section.ecosistemas img, 
+    section.especies-invasoras img {
+        width: 100%; /* Asegura que las imágenes ocupen el 100% en móviles */
+        margin: 0 auto; /* Centra la imagen */
+    }
+    
+    section.fauna img,
+    section.especies-invasoras img{
+        order: -1;
+    }
+
+    section.flora .text, 
+    section.fauna .text, 
+    section.ecosistemas .text, 
+    section.especies-invasoras .text {
+        width: 100%; /* Texto en el 100% de la pantalla */
+    }
+
+    section.fauna .text,
+    section.especies-invasoras .text {
+        order: 1;
+    }
+
+    section.flora h2, 
+    section.fauna h2, 
+    section.ecosistemas h2, 
+    section.especies-invasoras h2 {
+        font-size: 2rem; /* Ajusta el tamaño del título */
+    }
+
+    section.flora p, 
+    section.fauna p, 
+    section.ecosistemas p,
+    section.especies-invasoras p {
+        font-size: 1rem; /* Ajusta el tamaño del texto */
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column; /* Los elementos del footer se apilan en columna */
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: center; /* Centra el contenido del footer */
+    }
+
+    .footer-bottom {
+        font-size: 0.75rem;
+        padding-top: 10px;
+    }
+}
+
+/* Responsividad para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Secciones de contenido (flora, fauna, ecosistemas) */
+    section.flora img, 
+    section.fauna img, 
+    section.ecosistemas img,
+    section.especies-invasoras img {
+        width: 50%; /* Reduce el tamaño de las imágenes a la mitad del ancho */
+    }
+
+    section.flora h2, 
+    section.fauna h2, 
+    section.ecosistemas h2,
+    section.especies-invasoras h2 {
+        font-size: 2.2rem; /* Ajusta el tamaño del título para tablets */
+    }
+
+    section.flora p, 
+    section.fauna p, 
+    section.ecosistemas p,
+    section.especies-invasoras p {
+        font-size: 1.1rem; /* Ajusta el tamaño del texto */
+    }
+}

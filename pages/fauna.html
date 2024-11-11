@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/estilos_fauna.css" type="text/css">
+    <script src="https://kit.fontawesome.com/5064ec9ab6.js" crossorigin="anonymous"></script>
+    <title>Fauna - Biodiversidad</title>
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <section class="header-fauna">
+        <div class="header-content">
+            <h1>Fauna en Boyacá y Cundinamarca</h1>
+            <p>Conoce la increíble biodiversidad animal que habita en estos ecosistemas, desde aves hasta mamíferos.</p>
+        </div>
+    </section>
+
+    <section class="especies-emblematicas">
+        <h2>Mamíferos Emblemáticos</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="tarjeta-vulnerable" onclick="abrirModal('oso')">
+                    <img src="../assets/img/fauna/oso-anteojos.jpg" alt="Oso de anteojos">
+                    <h3>Oso de anteojos</h3>
+                    <p class="nombre-cientifico">Tremarctos ornatus</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="tarjeta-preocupacion-menor" onclick="abrirModal('venado')">
+                    <img src="../assets/img/fauna/venado.jpg" alt="Venado cola blanca">
+                    <h3>Venado cola blanca</h3>
+                    <p class="nombre-cientifico">Odocoileus virginianus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aves-nativas">
+        <h2>Aves Exuberantes</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="tarjeta-vulnerable" onclick="abrirModal('condor')">
+                    <img src="../assets/img/fauna/condor.jpg" alt="Condor de los Andes">
+                    <h3>Condor de los Andes</h3>
+                    <p class="nombre-cientifico">Vultur gryphus</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="tarjeta-peligro-critico" onclick="abrirModal('paujil')">
+                    <img src="../assets/img/fauna/paujil.jpeg" alt="Paujil de pico azul">
+                    <h3>Paujil de pico azul</h3>
+                    <p class="nombre-cientifico">Crax alberti</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fauna-acuatica">
+        <h2>Fauna Acuática</h2>
+        <div class="tarjetas">
+
+        </div>
+    </section>
+
+    <section id="modal-carrusel" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img id="carousel-img" src="" alt="Imagen del animal">
+                </div>
+                <div class="description-container">
+                    <h3 id="species-name"></h3>
+                    <h4 id="species-scientific-name"></h4>
+                    <p id="species-description"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'footer.html' %}
+    <script src="../../js/include.js"></script>
+    <script src="../../js/fauna.js"></script>
+</body>
+</html>

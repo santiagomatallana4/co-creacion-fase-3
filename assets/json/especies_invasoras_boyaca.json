@@ -1,0 +1,38 @@
+[
+    {
+        "Especie": "Retamo espinoso",
+        "Nombre científico": "(Ulex europaeus)",
+        "Descripción": "El Retamo espinoso, Ulex europaeus originario de Europa está presente en aproximadamente el 35% de los municipios de la jurisdicción, es una planta que pone en riesgo los ecosistemas de páramo desplazando a los frailejones. Crece rápido, produce hasta 20 mil semillas al año por planta. Es considerada como una de las más invasoras del mundo.",
+        "Imagen": "/assets/img/especies-invasoras/retamo-espinoso.jpg"
+    },
+    {
+        "Especie": "Retamo liso",
+        "Nombre científico": "(Teline monspessulana)",
+        "Descripción": "Retamo liso (Teline monspessulana), ha sido una de las mayores preocupaciones en la última década a nivel internacional, nacional y regional. Modifica los regímenes de incendios y limitan el establecimiento y desarrollo de las especies nativas, se ha identificado su presencia en el 17% de los municipios de la jurisdicción.",
+        "Imagen": "/assets/img/especies-invasoras/retamo-liso.jpg"
+    },
+    {
+        "Especie": "Ojo de poeta",
+        "Nombre científico": "(Thumbergia alata)",
+        "Descripción": "Ojo de poeta (Thumbergia alata), originaria de África Oriental, planta trepadora de crecimiento rápido y agresivo, puede tener más de mil semillas que germinan rápidamente en uno o dos días. Genera efectos graves a ecosistemas altoandinos, en los que homogeniza el paisaje llegando a acabar las especies endémicas.",
+        "Imagen": "/assets/img/especies-invasoras/ojo-poeta.jpeg"
+    },
+    {
+        "Especie": "Caracol gigante africano",
+        "Nombre científico": "(Achatina fulica)",
+        "Descripción": "Caracol gigante africano (Achatina fulica), es originario del este de África, es considerado una de las 100 especies exóticas invasoras más dañinas del mundo. En la jurisdicción de Corpoboyacá, se tienen registros en algunos municipios de las provincias de Occidente (Maripí, Otanche, Pauna, San Pablo de Borbur y Puerto Boyacá) y Lengupá (Berbeo, Paez y Miraflores). Presenta una alta tasa reproductiva y puede poner entre 100 y 400 huevos por vez, tiene un promedio de vida entre 5 y 9 años. Desplaza especies nativas y causa daños irreparables a los ecosistemas, destruye cultivos, generando grandes pérdidas económicas, hospeda y trasmite parásitos que causan graves enfermedades a los seres humanos.",
+        "Imagen": "/assets/img/especies-invasoras/caracol-africano.jpg"
+    },
+    {
+        "Especie": "Cangrejo Rojo",
+        "Nombre científico": "(Procambarus clarkii)",
+        "Descripción": "Cangrejo Rojo (Procambarus clarkii), es originario del Noroeste de México y sur de Estados Unidos, actualmente se encuentra ampliamente distribuido por el país, incluso en el departamento de Boyacá; a la fecha, se ha confirmado su presencia en los municipios de Gachantivá, Villa de Leyva, Sutamarchán y Paipa. Este crustáceo invasor, posee una gran capacidad de colonización de ecosistemas acuáticos, alterando las cadenas tróficas y desplazando poblaciones endémicas de peces, crustáceos, anfibios, entre otros. Por su actividad excavadora pueden afectar el fondo de quebradas, lagunas, estanques y estructuras civiles.",
+        "Imagen": "/assets/img/especies-invasoras/cangrejo-rojo.jpg"
+    },
+    {
+        "Especie": "Buchón de agua",
+        "Nombre científico": "(Eichornia crassipes)",
+        "Descripción": "Planta acuática incluida dentro de las 100 especies invasoras más peligrosas del mundo, presenta una grave amenaza para los ecosistemas acuáticos del departamento, compite por la luz, nutrientes y oxígeno con las demás especies de plantas nativas acuáticas, llegando a eliminar algunas de ellas, genera problemas ambientales y dificulta la actividad humana.",
+        "Imagen": "/assets/img/especies-invasoras/buchon.jpg"
+    }
+]

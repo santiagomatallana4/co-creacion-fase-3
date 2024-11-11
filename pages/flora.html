@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora - Biodiversidad</title>
+    <script src="https://kit.fontawesome.com/5064ec9ab6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/estilos_flora.css" type="text/css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <section class="descripcion-flora">
+        <h1>Flora en Boyacá y Cundinamarca</h1>
+        <p>
+            Las regiones de Boyacá y Cundinamarca son hogar de una rica biodiversidad de especies vegetales. La variedad de climas y ecosistemas, que incluyen bosques andinos, páramos y llanuras, ha permitido el desarrollo de una flora única. Desde las exuberantes orquídeas hasta los robustos árboles de roble, cada especie juega un papel fundamental en el equilibrio ecológico de estas áreas.
+        </p>
+    </section>
+
+    <section class="tarjetas-flora">
+        <div class="tarjeta">
+            <img src="../assets/img/flora/orquidea.webp" alt="Orquídea">
+            <div class="info">
+                <h2>Orquídea</h2>
+                <h3 class="nombre-cientifico">(Cattleya trianae)</h3>
+                <p>Las orquídeas son flores emblemáticas de la región, reconocidas por su belleza y diversidad.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>En Boyacá y Cundinamarca, hay varias especies de orquídeas que florecen en los meses más húmedos del año. Estas plantas son esenciales para el ecosistema, ya que atraen a polinizadores como las abejas y mariposas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/roble.jpeg" alt="Árbol de roble">
+            <div class="info">
+                <h2>Árbol de roble</h2>
+                <h3 class="nombre-cientifico">(Quercus humboldtii)</h3>
+                <p>El roble es un árbol robusto que se encuentra en los bosques andinos de la región.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>El roble es fundamental para mantener la biodiversidad del bosque, proporcionando refugio y alimento para numerosas especies animales. Su madera es altamente valorada y se utiliza en la construcción y la fabricación de muebles.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/palmera.jpg" alt="Palmera">
+            <div class="info">
+                <h2>Palmera</h2>
+                <h3 class="nombre-cientifico">(Ceroxylon quindiuense)</h3>
+                <p>Las palmeras son plantas tropicales que añaden belleza y sombra a los paisajes.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>En Cundinamarca, algunas especies de palmeras son vitales para el ecosistema, sirviendo como refugio y fuente de alimento para aves y otros animales. Además, sus frutos son comestibles y se utilizan en la gastronomía local.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/frailejon.webp" alt="Frailejón">
+            <div class="info">
+                <h2>Frailejón</h2>
+                <h3 class="nombre-cientifico">(Espeletia grandiflora)</h3>
+                <p>El frailejón es una planta típica de los páramos, reconocida por su capacidad de almacenar agua y regular el ciclo hidrológico.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Los frailejones son fundamentales para los ecosistemas de alta montaña, ya que sus hojas están cubiertas por una capa lanosa que permite retener humedad. Estas plantas pueden vivir cientos de años y son vitales para la captación de agua en zonas como el páramo de Sumapaz.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/puya.jpg" alt="Puya">
+            <div class="info">
+                <h2>Puya</h2>
+                <h3 class="nombre-cientifico">(Puya cryptantha)</h3>
+                <p>La puya es una planta de gran tamaño con hojas espinosas, que habita en los ecosistemas de páramo y subpáramo.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Las especies de puya florecen solo una vez en su vida, en una inflorescencia gigante. Aunque tardan décadas en florecer, sus semillas son fundamentales para regenerar el páramo. Algunas especies pueden alcanzar varios metros de altura.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/chusque.jpg" alt="Chusque">
+            <div class="info">
+                <h2>Chusque</h2>
+                <h3 class="nombre-cientifico">(Chusquea scandens)</h3>
+                <p>El chusque es una especie de bambú andino que forma densos bosques en las laderas montañosas de Boyacá y Cundinamarca.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Este bambú andino es importante para el control de la erosión en áreas montañosas y es usado tradicionalmente en la construcción. Sus bosques brindan refugio para muchas especies animales, incluyendo aves endémicas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/uva-camarona.jpg" alt="Uva camarona">
+            <div class="info">
+                <h2>Uva camarona</h2>
+                <h3 class="nombre-cientifico">(Macleania rupestris)</h3>
+                <p>La uva camarona es un arbusto nativo de los páramos, conocido por sus pequeñas bayas comestibles de color rojo.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Las frutas de la uva camarona son consumidas por la fauna local y, en algunas comunidades, también se usan en la gastronomía local. Esta planta es clave en los ecosistemas de alta montaña y ayuda en la regeneración de suelos.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/cucharo-paramo.jpg" alt="Cucharo de páramo">
+            <div class="info">
+                <h2>Cucharo de páramo</h2>
+                <h3 class="nombre-cientifico">(Myrsine dependens)</h3>
+                <p>El cucharo es una planta de hojas gruesas y carnosas que se encuentra en las zonas húmedas de páramo.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>El cucharo de páramo tiene hojas adaptadas para retener agua en climas extremos. Es crucial para las zonas de captación de agua y forma parte de la vegetación que permite la formación de suelos en estos ecosistemas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/aliso.jpeg" alt="Aliso Andino">
+            <div class="info">
+                <h2>Aliso andino</h2>
+                <h3 class="nombre-cientifico">(Alnus acuminata)</h3>
+                <p>El aliso es un árbol característico de las zonas húmedas, con hojas caducas y tronco recto.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Este árbol es importante para la regeneración de suelos en áreas erosionadas. Sus raíces son capaces de fijar nitrógeno, lo que mejora la fertilidad del suelo. Además, el aliso es utilizado en reforestación en zonas de montaña.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/caña-brava.jpg" alt="Caña brava">
+            <div class="info">
+                <h2>Caña brava</h2>
+                <h3 class="nombre-cientifico">(Gynerium sagittatum)</h3>
+                <p>La caña brava es una gramínea que crece en las zonas húmedas de los valles interandinos.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Esta planta tiene tallos largos y huecos que se utilizan tradicionalmente en la construcción y como materia prima en artesanías. La caña brava también ayuda a controlar la erosión en las orillas de los ríos y quebradas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/yarumo-blanco.jpeg" alt="Yarumo blanco">
+            <di class="info">
+                <h2>Yarumo blanco</h2>
+                <h3 class="nombre-cientifico">(Cecropia peltata)</h3>
+                <p>El yarumo blanco es un árbol emblemático de las montañas andinas, con grandes hojas palmeadas.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Este árbol es una especie pionera en la regeneración de bosques, ayudando a recuperar áreas deforestadas. Sus hojas grandes y lobuladas son características, y su sombra ayuda a otras plantas jóvenes a crecer.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../assets/img/flora/guayacan.jpg" alt="Guayacán">
+            <div class="info">
+                <h2>Guayacán</h2>
+                <h3 class="nombre-cientifico">(Handroanthus chrysanthus)</h3>
+                <p>El guayacán es un árbol de madera dura que produce flores amarillas muy vistosas en la temporada de lluvias.</p>
+                <button class="btn-mas-info" onclick="expandirInfo(this)">Saber más</button>
+                <div class="info-extra">
+                    <p>Este árbol es conocido por su belleza cuando florece en masa, cubriendo el paisaje de un intenso color amarillo. Su madera es muy apreciada por su resistencia y durabilidad, utilizada en la ebanistería y la construcción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../../js/flora.js"></script>
+
+    {% include 'footer.html' %}
+    <script src="../../js/include.js"></script>
+</body>
+</html>

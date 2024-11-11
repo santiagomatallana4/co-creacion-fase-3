@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/estilos_datos.css" type="text/css">
+    <title>Datos especies</title>
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist@2.11.1/plotly.min.js"></script>
+    <script src="https://kit.fontawesome.com/5064ec9ab6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Gráficos de Especies en Boyacá y Cundinamarca</h1>
+
+    <h2>Gráfico de Barras Interactivo</h2>
+    <div class="graficos">{{ bar_html|safe }}</div>  <!-- Gráfico de barras interactivo generado con Plotly -->
+
+    <h2>Gráfico Circular Interactivo</h2>
+    <div class="graficos">{{ pie_html|safe }}</div>  <!-- Gráfico circular interactivo generado con Plotly -->
+
+    {% include 'footer.html' %}
+
+</body>
+</html>

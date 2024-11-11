@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5064ec9ab6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/estilos_especies_invasoras.css" type="text/css">
+    <title>Especies invasoras</title>
+</head>
+<body>
+
+    {% include 'header.html' %}
+
+    <section class="header-especies">
+        <h1>Especies Invasoras en Boyacá y Cundinamarca</h1>
+    </section>
+
+    <section id="especies-lista">
+        <div id="contenedor-especies"></div>
+        <p id="cargando">Cargando especies...</p>
+    </section>
+
+    {% include 'footer.html' %}
+    <script src="../js/especies-invasoras.js"></script>
+</body>
+</html>
