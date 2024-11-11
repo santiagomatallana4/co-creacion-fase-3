@@ -12,6 +12,10 @@ En esta fase, se hizo uso de **Pandas** y **Plotly** para organizar y visualizar
 
 - **Archivo CSV común**: Se creó un archivo CSV unificado para ambos departamentos, que sirvió como fuente de datos para generar las gráficas.
 
+### Video entrega final
+
+[![Vista previa del video](https://img.youtube.com/vi/aXsVw8Ny1B8/maxresdefault.jpg)](https://www.youtube.com/watch?v=aXsVw8Ny1B8)
+
 ### Registro Fotográfico
 
 ![Pandas](https://github.com/santiagomatallana4/co-creacion-fase-3/blob/main/fase3/1.png)
